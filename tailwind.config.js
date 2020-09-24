@@ -5,7 +5,13 @@ module.exports = {
   },
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '58': '14.5rem',
+        '128': '32rem',
+        '192': '48rem'
+      }
+    },
   },
   variants: {},
   plugins: [],
